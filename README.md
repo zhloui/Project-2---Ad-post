@@ -30,4 +30,4 @@ Planned future enhancements include:
 - **Additional Layouts:**
   Create more layouts and styles to improve the overall user experience. Consider responsive designs for various screen sizes.
 
-
+Feel free to contribute to the project.

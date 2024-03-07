@@ -9,10 +9,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ad-post</title>
 </head>
-<body>
+<body class="bg-body-tertiary">
   <div class="container">
 
-    <h1 class="mb-4">Edit Post</h1>
+    <h1 class="mb-4 rounded-pill px-3">Edit Post</h1>
 
     <form action="/articles/<%= article.id %>?_method=PUT" method="POST">
       <%- include('_form_fields') %>
