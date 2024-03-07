@@ -21,7 +21,11 @@
     
     <a href="/articles/edit/<%= article.id %>" class="btn btn-info rounded-pill px-3 mt-3 mb-3">Edit</a>
 
-    <div>
+    <h5 class="border-top pt-3 mt-3">Description</h5>
+    <div class="card-text mb-2 text-body-secondary"><%= article.description %></div>
+
+    <h5 class="border-top pt-3 mt-2">Content</h5>
+    <div class="text-body-secondary">
       <%= article.markdown %>
     </div>
     

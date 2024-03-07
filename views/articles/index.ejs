@@ -42,7 +42,7 @@
             <%= article.createdAt.toLocaleDateString() %>
           </div>
 
-          <div class="card-text mb-2" style="font-size: larger"><%= article.description %></div>
+          <div class="card-text mb-2 text-body-secondary" style="font-size: larger"><%= article.description %></div>
           <a href="articles/<%= article.id %>" class="btn btn-primary rounded-pill px-3">Read More</a>
 
           <a href="articles/edit/<%= article.id %>" class="btn btn-info rounded-pill px-3">Edit</a>

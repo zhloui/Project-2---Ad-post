@@ -6,7 +6,7 @@
 This project serves as a basic platform for managing Ad-post, allowing users to create, edit, view, and delete Posts. It utilizes a MongoDB database to store article data and EJS templates for rendering dynamic content.
 
 ## Screenshot
-(<insert screenshot link here> will be added later)
+![Homepage of the website showing posts](https://imgur.com/a/AavEzd3)
 
 ## Technologies Used
 
