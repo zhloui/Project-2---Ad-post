@@ -43,7 +43,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-// Add this before the catch-all route (404 handler)
 app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
 // This is the callback URL where Google redirects after authentication
@@ -61,12 +60,6 @@ app.get('/logout', function(req, res){
     res.redirect('/');
   });
 });
-
-
-// var indexRouter = require('./routes/articles');
-// var usersRouter = require('./routes/users');
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
 
 
 app.get('/', async (req, res) => {
