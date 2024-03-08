@@ -15,19 +15,14 @@
 
 
   <div class="container">
-    
 
     <nav>
       <% if (user) { %>
-        <a href="/logout">LOG OUT</a>
+        <a href="/logout" class="login badge align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill mt-2 mb-2" ><img class="rounded-circle me-1" width="25" height="25" src="https://i.imgur.com/FHjYyi0.png" alt="">LOG OUT</a>
       <% } else { %>
-        <a href="/auth/google" class="login" >LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png" style="height: 34px;"></a>
+        <a href="/auth/google" class="login badge align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill mt-2 mb-2" ><img class="rounded-circle me-1" width="25" height="25" src="https://i.imgur.com/FHjYyi0.png" alt="">LOG IN WITH GOOGLE&nbsp;</a>
       <% } %>
     </nav>
-
-
-
-
 
 
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
