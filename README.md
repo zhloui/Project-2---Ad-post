@@ -1,5 +1,4 @@
-# Project-2---Ad-post
-# Ad-Post forum
+# Ad-Post
 
 ## Description
 
@@ -7,7 +6,7 @@ This project serves as a basic platform for managing Ad-post, allowing users to 
 
 ## Getting Started
 
-To access the app, you can clone the files to a local computer. Then start the server with Nodemon and go to <http://localhost:3000/>
+To access the app, you can clone the files to a local computer. Start the server with Nodemon to view on <http://localhost:3000/>
 
 ## Screenshot
 ![Homepage of the website showing posts](./public/images/home.png)
